@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+}
+
+/* =========== HEADER =========== */
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+.menu {
+  width: 500px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__item {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #818181;
+}
+
+.heading {
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  color: #434343;
+}
+
+.text {
+  font-family: 'Raleway';
+  color: #818181;
+  line-height: 1.8;
+}
+
+.header__content {
+  margin: 40px 50px;
+}
+
+/* =========== ARTICLES LIST =========== */
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.article {
+  width: 46%;
+  margin-top: 30px;
+}
+
+.article__category {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.article__heading {
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  color: #434343;
+}
+
+.article__link {
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  color: #000000;
+}
